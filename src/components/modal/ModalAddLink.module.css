@@ -1,0 +1,35 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 30px;
+    padding-bottom: 40px;
+    height: max-content;
+    margin-top: 150px;
+    cursor: default;
+    min-width: 400px;
+}
+
+.modal__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.modal__btn_close {
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 10px;
+    font-size: 18px;
+    border: 2px solid #e6394780;
+    color: #e63946;
+    border-radius: 20px;
+    background: none;
+}
+
+.modal__btn_close:hover, .modal__btn_close:active {
+    border: 2px solid #e63946;
+}

@@ -1,0 +1,37 @@
+.btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #c9ada7;
+    border: 2px solid #c9ada7;
+    color: #22223b;
+    cursor: pointer;
+    width: max-content;
+}
+
+.btn:hover {
+    border: 2px solid #4a4e69;
+}
+
+.btn:active {
+    border: 2px solid #4a4e69;
+    background-color: #4a4e69;
+    color: #c9ada7;
+}
+
+.out-btn {
+    border-color: #f07167;
+    background-color: #f07167;
+}
+
+.out-btn:hover {
+    border-color: #e63946;
+}
+
+.out-btn:active {
+    background-color: #e63946;
+    border-color: #e63946;
+    color: #ffff;
+}

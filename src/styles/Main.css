@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 0 30px 40px;
+    box-sizing: border-box;
+}
+
+.modal-wrapper {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    background-color: #6e656d79;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.isopen {
+    display: flex;
+}
+
+.out-btn-wrapper {
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+    margin-bottom: -60px;
+}
